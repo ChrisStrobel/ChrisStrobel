@@ -8,6 +8,11 @@
 #inputs {
 	background-color: #cceeff;
 }
+#required1,#required2,#required3,#required4,#required5,#required6 {
+	text-align: right;
+	font-weight: bold;
+	
+}
 </style>
 </head>
 <hr/>
@@ -22,16 +27,16 @@
 <hr/>
 <center>
 <table id="inputs">
-<tr><td style="text-align: right">Name:</td>
+<tr><td id="required1">Name:</td>
     <td><input type="text" name="nameInput" style="width: 242px"/></td>
 </tr>
-<tr><td style="text-align: right">Email:</td>
+<tr><td id="required2">Email:</td>
     <td><input type="text" name="emailInput" style="width: 242px"/></td>
 </tr>
-<tr><td style="text-align: right">Phone:</td>
+<tr><td id="required3">Phone:</td>
     <td><input type="text" name="phoneInput" style="width: 242px"/></td>
 </tr>
-<tr><td style="text-align: right">Reason for Inquiry:</td>
+<tr><td id="required4">Reason for Inquiry:</td>
     <td><select name="inquiry" style="width: 246px"/>
 	<option value="Catering (default)">Catering (default)</option>
 	<option value="Private Party">Private Party</option>
@@ -39,13 +44,13 @@
 	<option value="Other">Other</option>
 	</select></td>
 </tr>
-<tr><td style="text-align: right">Additional Information:</td>
+<tr><td id="required5">Additional Information:</td>
     <td><textarea name="additionalinformation" style="width: 240px"></textarea></td>
 </tr>
 <tr><td style="text-align: right">Have you been to the restaurant?</td>
     <td><input type="radio" name="answer" value="No" checked/>No<input type="radio" name="answer" value="Yes"/>Yes</td>
 </tr>
-<tr><td style="text-align: right">Best days to contact you:</td>
+<tr><td id="required6">Best days to contact you:</td>
     <td><input type="checkbox" name="contactDays" value="M"/>M
 	<input type="checkbox" name="contactDays" value="M"/>T
 	<input type="checkbox" name="contactDays" value="M"/>W

@@ -2,3 +2,18 @@
 	background-color: #e0ebeb;
 }
 
+a:link {
+	color: purple;
+}
+
+a:visited {
+	color: Green;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:active {
+	text-decoration: none;
+}

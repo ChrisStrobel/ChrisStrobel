@@ -1,10 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script>
 <link href="c:\users\n0213981\Repos\ChrisStrobel\albumStyles.css" 
       rel="stylesheet" 
       type="text/css" />
 <style>
+#center3,#center5,#center7,#center9,#center11 {
+	text-align: center;
+	background-color: Blue;
+	color: White;
+}
+#center4,#center6,#center8,#center10,#center12 {
+	text-align: center;
+	background-color: Gray;
+	color: White;
+}
 li {
 	color: green;
 }
@@ -15,29 +36,23 @@ a:hover {
 	text-decoration: underline;
 	background-color: red;
 }
-#trackTable {
-	background-color: #e0e0eb;
-	width: 100%;
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-td {
-	font-style: italic;
-}
+
 </style>
 <title>Listener Supported</title>
 </head>
 <body>
 <center>
-<div style="height: 200px; background-image: url(https://upload.wikimedia.org/wikipedia/en/8/87/Dave_Matthews_Listener_Supported.jpg)">
+<div>
+<br />
+<img src="images/ListenerSupported.jpg" alt="Listener Supported" style="width: 200px" class="img-circle"/>
 </div>
 <h1 style="font-family: Rockwell">Listener Supported</h1>
-<h2><a href="http://www.davematthewsband.com/" target="_blank" alt="Dave Matthews Band">Dave Matthews Band</a></h2>
+<h2><a href="http://www.davematthewsband.com/" target="_blank">Dave Matthews Band</a></h2>
 <h3>November 23, 1999</h3>
-</br>
+<br/>
 <hr/>
 </center>
-<h3 style="font-family: Rockwell"><center>Band Members and Producers</center></h3>
+<h3 style="font-family: Rockwell">Band Members and Producers</h3>
 <ul style="font-style: italic">
 <li style="font-size: 125%">Dave Matthews - Lead Vocals,Guitar</li>
 <li>Carter Beauford - Percussion, Drums, Vocals</li>
@@ -48,134 +63,77 @@ td {
 <li>Butch Taylor - Keyboards</li>
 <li>Steve Lillywhite - Producer</li>
 </ul>
-<table id="trackTable">
-<caption>Tracks</caption>
-<tr bgcolor="grey">
-<th>Track #</th>
-<th>Track Title</th>
-<th>Track Length</th>
-</tr>
 
-<tr>
-<td>1</td>
-<td>Intro</td>
-<td>6:25</td>
-</tr>
 
-<tr>
-<td>2</td>
-<td>Pantala Naga Pampa</td>
-<td>0:41</td>
-</tr>
+<div class="container-fluid">
+<div class="row">
+<div id="center1" class="col-xs-12" style="font-weight: bold; font-size: 140%; text-align: center">Tracks</div>
+</div>
+<div id="center2" class="row" style="font-size: 125%; text-align: center">
+<div class="col-xs-4">Track</div>
+<div class="col-xs-4">Track Title</div>
+<div class="col-xs-4">Track Length</div>
+</div>
+<div id="center3" class="row">
+<div class="col-xs-4">1</div>
+<div class="col-xs-4">Intro</div>
+<div class="col-xs-4">6:25</div>
+</div>
 
-<tr>
-<td>3</td>
-<td>Rapunzel</td>
-<td>7:09</td>
-</tr>
+<div id="center4" class="row">
+<div class="col-xs-4">2</div>
+<div class="col-xs-4">Pantala Naga Pampa</div>
+<div class="col-xs-4">0:41</div>
+</div>
 
-<tr>
-<td>4</td>
-<td>Rhyme & Reason</td>
-<td>5:58</td>
-</tr>
+<div id="center5" class="row">
+<div class="col-xs-4">3</div>
+<div class="col-xs-4">Rapunzel</div>
+<div class="col-xs-4">7:09</div>
+</div>
 
-<tr>
-<td>5</td>
-<td>The Stone</td>
-<td>7:28</td>
-</tr>
+<div id="center6" class="row">
+<div class="col-xs-4">4</div>
+<div class="col-xs-4">Rhyme & Reason</div>
+<div class="col-xs-4">5:58</div>
+</div>
 
-<tr>
-<td>6</td>
-<td>#41</td>
-<td>9:47</td>
-</tr>
+<div id="center7" class="row">
+<div class="col-xs-4">5</div>
+<div class="col-xs-4">The Stone</div>
+<div class="col-xs-4">7:28</div>
+</div>
 
-<tr>
-<td>7</td>
-<td>Crash Into Me</td>
-<td>6:02</td>
-</tr>
+<div id="center8" class="row">
+<div class="col-xs-4">6</div>
+<div class="col-xs-4">#41</div>
+<div class="col-xs-4">9:47</div>
+</div>
 
-<tr>
-<td>8</td>
-<td>Jimi Thing</td>
-<td>13:12</td>
-</tr>
+<div id="center9" class="row">
+<div class="col-xs-4">7</div>
+<div class="col-xs-4">Crash Into Me</div>
+<div class="col-xs-4">6:02</div>
+</div>
 
-<tr>
-<td>9</td>
-<td>#36</td>
-<td>7:34</td>
-</tr>
+<div id="center10" class="row">
+<div class="col-xs-4">8</div>
+<div class="col-xs-4">Jimi Thing</div>
+<div class="col-xs-4">13:12</div>
+</div>
 
-<tr>
-<td>10</td>
-<td>Warehouse</td>
-<td>8:32</td>
-</tr>
+<div id="center11" class="row">
+<div class="col-xs-4">9</div>
+<div class="col-xs-4">#36</div>
+<div class="col-xs-4">7:34</div>
+</div>
 
-<tr>
-<td>11</td>
-<td>Too Much</td>
-<td>4:52</td>
-</tr>
+<div id="center12" class="row">
+<div class="col-xs-4">10</div>
+<div class="col-xs-4">Warehouse</div>
+<div class="col-xs-4">8:32</div>
+</div>
+</div>
 
-<tr>
-<td>12</td>
-<td>True Reflections</td>
-<td>7:25</td>
-</tr>
-
-<tr>
-<td>13</td>
-<td>Two Step</td>
-<td>14:38</td>
-</tr>
-
-<tr>
-<td>14</td>
-<td>Granny</td>
-<td>4:24</td>
-</tr>
-
-<tr>
-<td>15</td>
-<td>Stay (Wasting Time)</td>
-<td>7:07</td>
-</tr>
-
-<tr>
-<td>16</td>
-<td>#40</td>
-<td>1:49</td>
-</tr>
-
-<tr>
-<td>17</td>
-<td>Long Black Veil</td>
-<td>8:44</td>
-</tr>
-
-<tr>
-<td>18</td>
-<td>Don't Drink the Water</td>
-<td>7:09</td>
-</tr>
-
-<tr>
-<td>19</td>
-<td>Intro to...</td>
-<td>1:36</td>
-</tr>
-
-<tr>
-<td>20</td>
-<td>All Along the Watchtower</td>
-<td>7:51</td>
-</tr>
-
-</table>
 </body>
 </html>

@@ -17,3 +17,7 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
+
+#Table1 {
+    text-align: center;
+}
